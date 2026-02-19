@@ -3,16 +3,16 @@ title: Overview
 id: overview
 ---
 
-TanStack Hotkeys is a **type-safe**, **framework-agnostic** library for handling keyboard shortcuts in your applications. It provides a comprehensive set of utilities for registering hotkeys, tracking key state, recording custom keyboard shortcuts, and handling multi-key sequences -- all with first-class TypeScript support and cross-platform compatibility.
+TanStack Hotkeys is a **type-safe**, **framework-agnostic** library for handling keyboard shortcuts in your applications. It provides a comprehensive set of utilities for registering hotkeys, tracking key state, recording custom keyboard shortcuts, and handling multi-key sequences — all with first-class TypeScript support and cross-platform compatibility.
 
 > [!IMPORTANT]
 > TanStack Hotkeys is currently in **alpha** and its API is still subject to change. Early adopters are encouraged to help us solve edge cases across multiple keyboard layouts, locales, and operating systems.
 
 ## Motivation
 
-On the surface, keyboard shortcuts are a simple concept, and you would think that it should just take a couple of lines of code to implement them. And sometimes, it can be that simple. However, there are enough small "gotchas" that can eventually add up to an annoying amount of complexity when you need to consider multiple keyboard layouts, operating systems, custom shortcuts, conflicting hotkey scopes, properly ignoring input elements, and more. 
+Keyboard shortcuts seem simple — sometimes they really are. But there are enough small gotchas that can add up quickly once you account for different keyboard layouts, operating systems, custom shortcuts, conflicting scopes, and properly ignoring input elements.
 
-Surprisingly, in our experience, even AI often struggles to get hotkey management fully correct. We believe that providing a library that brings type-safety and well thought out cross-platform compatibility to hotkey management is a valuable contribution to the community.
+In our experience, even AI often struggles to get hotkey management fully correct. This library aims to bring type safety and well-thought-out cross-platform compatibility to hotkey management.
 
 ## Features
 
